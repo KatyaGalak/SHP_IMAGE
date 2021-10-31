@@ -15,12 +15,13 @@ public:
     vector <Pixel> getImage(){
         return pixel;
     }
-    Pixel getPixel(uint x, uint y){
+
+    /*Pixel getPixel(uint x, uint y){
         return pixel[x * y];
-    }
-    /*void setPixel(Pixel new_pixel, uint x, uint y){
-        pixel[x * y] = new_pixel;
     }*/
+    void setPixel(Pixel new_pixel, uint x, uint y){
+        pixel[x * y] = new_pixel;
+    }
 
     void returnImage(string fileName){
         uint sizeIm = pixel.size();
