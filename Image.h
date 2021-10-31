@@ -18,11 +18,11 @@ public:
     Pixel getPixel(uint x, uint y){
         return pixel[x * y];
     }
-    void setPixel(Pixel new_pixel, uint x, uint y){
+    /*void setPixel(Pixel new_pixel, uint x, uint y){
         pixel[x * y] = new_pixel;
-    }
+    }*/
 
-    void returnImage(vector <Pixel> pixel, string fileName){
+    void returnImage(string fileName){
         uint sizeIm = pixel.size();
         vector <uchar> image;
 
