@@ -78,7 +78,7 @@ public:
 	}
 
 
-    void set_Color(){
+    void new_Color(){
 
         for (int x=0; x<width; ++x){
             for (int y=0; y<height; ++y){
