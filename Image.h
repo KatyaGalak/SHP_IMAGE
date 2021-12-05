@@ -1,4 +1,4 @@
-#include"Pixel.h"
+//#include"Pixel.h"
 #include"Color.h"
 #include <bits/stdc++.h>
 #include"lodepng.h"
